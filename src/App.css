@@ -1,0 +1,30 @@
+.App {
+	text-align: center;
+}
+
+.regform {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #6d91da;
+	min-height: 100vh;
+}
+
+.field_email {
+	margin: 5px;
+}
+.field_input {
+	margin-bottom: 5px;
+}
+.field_button {
+	background-color: #103b91;
+	color: white;
+	width: 180px;
+	height: 40px;
+}
+
+.errorlabel {
+	color: rgb(160, 9, 9);
+}
